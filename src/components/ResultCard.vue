@@ -75,7 +75,7 @@
                                         <a :href="result.url" target="_blank"> Official link (external url)</a>
                                     </div>
                                     <div>
-                                        <a @click="routeURL()"> Full license</a>
+                                        <router-link to="/license" target="_blank" >Full license</router-link>
                                     </div>
                                 </v-col>
                             </v-row>
@@ -310,11 +310,6 @@
                 } else if (this.startingQuestionsAnswers.questionOne === 'no' && this.startingQuestionsAnswers.questionTwoPointTwo === 'No license is used') {
                     this.multiLicensingPossible = true
                 }
-            },
-
-            routeURL() {
-                let routeData = this.$router.resolve({name: 'License'});
-                window.open(routeData.href, '_blank');
             }
         }
     }
