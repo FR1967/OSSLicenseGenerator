@@ -138,11 +138,8 @@
                                     <p>
                                         <strong>Software-related offers</strong>
                                         <br>
-                                        Since this is an Open Source license, you cannot charge a price on the product
-                                        based on
-                                        this license. However, it is possible to offer software-related services. These
-                                        are for example installation services, support, subscriptions and maintenance of
-                                        the software.
+                                        Since this is an open source software license, you cannot charge a price for the product based on this license. However, it is possible to offer software-related services. These are, for example, installation services, support services, subscriptions and maintenance of the software.
+
                                     </p>
                                     <div v-if="result.softwareRelatedOffer != null">
                                         In this license, the {{result.softwareRelatedOffer[0]}} directly refers to
@@ -202,22 +199,22 @@
                 notes: [
                     {
                         id: 1,
-                        title: 'Be aware that if you provide software-related offerings, you may incur liability and warranty risks, including those outside the scope of this license',
+                        title: 'Be aware that if you provide software-related offerings, you may incur liability and warranty risks, including risks that are outside the scope of this license.'
                     },
                 ],
                 multiLicensingListItems: [
                     {
-                        title: 'Launch the commercial product a certain time before the open source software',
-                        children: [{title: 'Commercial customers would thus gain a competitive advantage'}],
+                        title: 'Launch the commercial product a certain time before the open-source software',
+                        children: [{title: 'Commercial customers would then gain a competitive advantage'}],
 
                     },
                     {
-                        title: 'You may version both products differently',
-                        children: [{title: 'For example, the commercial product could be offered server-side, and the open source software only locally'}],
+                        title: 'You can version both products differently',
+                        children: [{title: 'For example, the commercial product could be offered on the server side, and the open-source software only locally'}],
                     },
                     {
                         title: 'Your brand name does not have to be included in the commercial product',
-                        children: [{title: 'Commercial customers can distribute the product under their own name without using their name in advertisements, for example'}],
+                        children: [{title: 'Commercial customers can distribute the product under their own name without using your name in, for example, advertisements'}],
                     },
 
                 ],
@@ -267,7 +264,7 @@
                     this.notes.push(
                         {
                             id: this.notes.length+1,
-                            title: "Because you are not the original author of the software, you must ensure that your licensee does not exclude software-related offerings on your side",
+                            title: "Since you are not the original author of the software, you must ensure that your licensee does not exclude software-related offers from your site.",
                         }
                     )
                 }
@@ -292,8 +289,8 @@
                     this.multiLicensingListItems.push(
                         {
                             condition: 'GPL',
-                            title: 'The commercial product no longer has a reciprocity clause. (check question no. 4)',
-                            children: [{title: 'Commercial customers can customize their product according to their needs without passing this change on to youe'}],
+                            title: 'The commercial product no longer has a reciprocity clause (check question no. 4)',
+                            children: [{title: 'Commercial customers can customize their product according to their own needs without passing this customization on to you'}],
 
                         }
                     )
