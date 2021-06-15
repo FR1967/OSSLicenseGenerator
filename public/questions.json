@@ -1,0 +1,105 @@
+[
+  {
+    "id": 3,
+    "question": "Möchten Sie, dass andere Entwickler, die Ihr Programm nutzen dieselbe/eine ähnliche Lizenz verwenden müssen wie Sie? ",
+    "answerYes": "Ja",
+    "answerNo": "Nein",
+    "ifYes": "Apache, BSD 2.0, BSD 3.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MIT, MPL, CDDL, EPL",
+    "ifNo": "Apache, BSD 2.0, BSD 3.0, MIT",
+    "licenseSection": "Apache=TOS2&TOS4 , BSD 2.0=Abs1&Abs2 , BSD 3.0=Abs1&Abs2 , GPL 2.0=TOS2S1b&TOS2S1c , GPL 3.0=TOS5S1c&TOS10S1 , LGPL 2.1=TOS2S1c&TOS3S1 , LGPL 3.0=TOS2a&TOS2b , MIT=Abs1 , MPL=TOS3.1&TOS3.2S2 , CDDL=TOS2.1&TOS3.1 , EPL=TOS2a&TOS3.1b ",
+    "_comment": "ifYes only link to 103"
+  },
+  {
+    "id": 103,
+    "question": "Soll exakt dieselbe Lizenzverwendet werden, oder sollen Ihre Lizenzbedingungen nicht verletzt werden",
+    "answerYes": "Ja es soll genau die gleiche Lizenz verwendet werden",
+    "answerNo": "Nein, es darf eine andere Lizenz verwendet werden, solange meine Lizenzbedingung nicht verletzt wird",
+    "ifYes": "GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MPL",
+    "ifNo": "CDDL, EPL",
+    "licenseSection": "Apache= , BSD 2.0= , BSD 3.0= , GPL 2.0= , GPL 3.0= , LGPL 2.1= , LGPL 3.0= , MIT= , MPL= , CDDL= , EPL= "
+  },
+  {
+    "id": 4,
+    "question": "Möchten Sie, dass andere Entwickler dazu verpflichtet sind ihre Änderungen an dem Programm an Sie weiterzugeben?",
+    "answerYes": "Ja",
+    "answerNo": "Nein",
+    "ifYes": "Apache, BSD 2.0, BSD 3.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MIT, MPL, CDDL, EPL",
+    "ifNo": "Apache, BSD 2.0, BSD 3.0, MIT, MPL, CDDL, EPL",
+    "licenseSection": "Apache= , BSD 2.0= , BSD 3.0= , GPL 2.0=TOS3S1 , GPL 3.0=TOS6S1 , LGPL 2.1= , LGPL 3.0= , MIT= , MPL= , CDDL= , EPL= ",
+    "_comment": "ifYes only link to 104"
+  },
+  {
+    "id": 104,
+    "question": "Möchten Sie, dass die Verpflichtung Änderungen offen zulegen immer besteht?",
+    "answerYes": "Ja, die Verpflichtung soll immer gelten",
+    "answerNo": "Nein, die Verpflichtung kann gegen ein Entgelt aufgehoben werden",
+    "ifYes": "GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0",
+    "ifNo": "GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0",
+    "licenseSection": "Apache= , BSD 2.0= , BSD 3.0= , GPL 2.0= , GPL 3.0= , LGPL 2.1= , LGPL 3.0= , MIT= , MPL= , CDDL= , EPL= "
+  },
+  {
+    "id": 5,
+    "question": "Möchten Sie, dass Änderungen bei abgeleiteten Arbeiten im Quellcode erkennbar sein?",
+    "answerYes": "Ja",
+    "answerNo": "Nein",
+    "ifYes": "GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MPL, CDDL",
+    "ifNo": "Apache, BSD 2.0, BSD 3.0, MIT, EPL",
+    "licenseSection": "Apache=TOS4.3, BSD 2.0= , BSD 3.0= , GPL 2.0=TOS2S1a, GPL 3.0=TOS5S1a, LGPL 2.1=TOS2S1b, LGPL 3.0= , MIT= , MPL= , CDDL=TOS3.3 , EPL=TOS3.3"
+  },
+  {
+    "id": 6,
+    "question": "Soll es Einschränkungen geben, wenn Ihr Werk mit anderen Zusammengefügt wird?",
+    "answerYes": "Ja",
+    "answerNo": "Keine Einschränkungen",
+    "ifYes": "Apache, BSD 2.0, BSD 3.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MIT, MPL, CDDL, EPL",
+    "ifNo": "Apache, BSD 2.0, BSD 3.0, MIT, MPL",
+    "licenseSection": "Apache=TOS4 , BSD 2.0=Abs1&Abs2, BSD 3.0=Abs1&Abs2, GPL 2.0=TOS10&TOS2S4 , GPL 3.0=TOS13&TOS5S2 , LGPL 2.1=TOS7S1&TOS14 , LGPL 3.0=TOS4&TOS5 , MIT=Abs1 , MPL=TOS3.3 , CDDL=TOS3.6 , EPL=TOS3.2a ",
+    "_comment": "ifYes only link to 106"
+  },
+  {
+    "id": 106,
+    "question": "Welche Beschränkungen sollen dem zusammenführen auferlegt werden?",
+    "answerYes": "Es darf nur mit gleich lizensierten Programmen vereint werden ",
+    "answerNo": "Das gemeinsame Werk darf meine Lizenzbedingungen nicht widersprechen ",
+    "ifYes": "GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0",
+    "ifNo": "CDDL, EPL",
+    "licenseSection": "Apache= , BSD 2.0= , BSD 3.0= , , GPL 2.0= , GPL 3.0= , LGPL 2.1= , LGPL 3.0= , MIT= , MPL= , CDDL= , EPL= "
+  },
+  {
+    "id": 7,
+    "question": "Wollen Sie Ihre Software oder Teile davon später patentieren lassen oder besitzen Sie bereits Patente dafür? ",
+    "answerYes": "Ja",
+    "answerNo": "Nein",
+    "ifYes": "Apache, BSD 2.0, BSD 3.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MIT, MPL, CDDL, EPL",
+    "ifNo": "Apache, BSD 2.0, BSD 3.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MIT, MPL, CDDL, EPL",
+    "licenseSection": "Apache=TOS3 , BSD 2.0= , BSD 3.0= , GPL 2.0=TOS7S1 , GPL 3.0=TOS11S1 , LGPL 2.1=TOS11S1 , LGPL 3.0= , MIT= , MPL=TOS2.1S3&TOS2.3S1 , CDDL=TOS2.1 , EPL=TOS2b&TOS7S2 ",
+    "_comment": "ifYes only link to 106"
+  },
+  {
+    "id": 107,
+    "question": "Wollen Sie Ihr Patent an alle beteiligten des Programms weitergeben?",
+    "answerYes": "Ja",
+    "answerNo": "Nein",
+    "ifYes": "Apache, BSD 3.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MPL, CDDL, EPL",
+    "ifNo": "BSD 2.0, MIT",
+    "licenseSection": "Apache= , BSD 2.0= , BSD 3.0= , GPL 2.0= , GPL 3.0= , LGPL 2.1= , LGPL 3.0= , MIT= , MPL= , CDDL= , EPL= "
+  },
+  {
+    "id": 8,
+    "question": "Wollen Sie, dass Ihr Markenname weiterhin in abgeleiteten Arbeiten verwendet wird? ",
+    "answerYes": "Ja",
+    "answerNo": "Nein",
+    "ifYes": "BSD 2.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MIT, CDDL, EPL",
+    "ifNo": "Apache, BSD 3.0, GPL 2.0, LGPL 2.1, MIT, MPL",
+    "licenseSection": "Apache=TOS6 , BSD 2.0= , BSD 3.0=Abs3 , GPL 2.0= , GPL 3.0=TOS7S3e , LGPL 2.1= , LGPL 3.0= , MIT= , MPL=TOS2.3S5 , CDDL=TOS3.3 , EPL=TOS3.3 "
+  },
+  {
+    "id": 9,
+    "question": "Wird Ihr erstelltes Produkt eine Bibliothek?",
+    "answerYes": "Ja",
+    "answerNo": "Nein",
+    "ifYes": "Apache, BSD 2.0, BSD 3.0, GPL 2.0, GPL 3.0, LGPL 2.1, LGPL 3.0, MIT, MPL, CDDL, EPL",
+    "ifNo": "Apache, BSD 2.0, BSD 3.0, GPL 2.0, GPL 3.0, MIT, MPL, CDDL, EPL",
+    "licenseSection": "Apache= , BSD 2.0= , BSD 3.0= , GPL 2.0= , GPL 3.0= , LGPL 2.1= , LGPL 3.0= , MIT= , MPL= , CDDL= , EPL= "
+  }
+]
