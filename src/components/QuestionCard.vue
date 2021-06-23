@@ -2,7 +2,7 @@
     <div>
         <div class="card mt-1">
             <section>
-                <h4>Frage {{ question.id }}: {{ question.question }}</h4>
+                <h4>Question {{ question.id }}: {{ question.question }}</h4>
                 <v-radio-group
                         v-model="radios"
                         non -mandatory
@@ -23,7 +23,7 @@
         <div v-if="!this.questionAdditional" class="card">
             <section>
 
-                <h4>Frage {{ questionListAdditional[0].id }}: {{ questionListAdditional[0].question }}</h4>
+                <h4>Question {{ questionListAdditional[0].id }}: {{ questionListAdditional[0].question }}</h4>
                 <v-radio-group
                         v-model="radiosAdd"
                         non -mandatory
