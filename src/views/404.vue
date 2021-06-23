@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Oops!</h1>
-        <router-link :to="{ name: 'event-list' }">Du wirst in <span id="timeLeft">{{ timeLeft }}5</span> Sekunden auf die Startseite weitergeleitet!</router-link>
+        <router-link :to="{ name: 'Home' }">Du wirst in <span id="timeLeft">{{ timeLeft }}5</span> Sekunden auf die Startseite weitergeleitet!</router-link>
     </div>
 </template>
 <script>
