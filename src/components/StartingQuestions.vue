@@ -1,37 +1,37 @@
 <template>
     <div>
         <section >
-            <h4>Frage 1: Sind Sie der Originalautor der Software?</h4>
+            <h4>Question 1: Are you the original author of the software?</h4>
             <v-radio-group
                     v-model="questOne"
                     non -mandatory
             ><!--- non -mandatory -->
                 <v-radio value="yes" @click="clickQuestOne">
                     <template v-slot:label>
-                        Ja
+                        Yes
                     </template>
                 </v-radio>
                 <v-radio value="no" @click="clickQuestOne">
                     <template v-slot:label>
-                        Nein, ich erweitere ein bereits bestehendes Programm
+                        No, I am expanding an already existing program
                     </template>
                 </v-radio>
             </v-radio-group>
 
             <div v-if="this.questOne === 'yes'">
-                <h4>Frage 2: Verwenden Sie Komponenten/Quellcode/Programme von anderer OSS?</h4>
+                <h4>Question 2: Do you use components/source code/programs from other OSS?</h4>
                 <v-radio-group
                         v-model="questTwo"
                         non -mandatory
                 >
                     <v-radio value="yes" @click="clickQuestTwo">
                         <template v-slot:label>
-                            Ja, ich nutze fremde Software
+                            Yes, I am using other software
                         </template>
                     </v-radio>
                     <v-radio value="no" @click="clickQuestTwo">
                         <template v-slot:label>
-                            Nein
+                            No
                         </template>
                     </v-radio>
                 </v-radio-group>
@@ -39,19 +39,19 @@
 
             <div v-if="this.questTwo === 'no'">
 
-                <h4>Frage 201: Unterliegt das Programm bereits einer Lizenz?</h4>
+                <h4>Question 201: Is the program already subject to a license</h4>
                 <v-radio-group
                         v-model="questTwoPointOne"
                         non -mandatory
                 >
                     <v-radio value="yes">
                         <template v-slot:label>
-                            Ja
+                            Yes
                         </template>
                     </v-radio>
                     <v-radio value="no" @click="clickQuestTwoPointOneNo">
                         <template v-slot:label>
-                            Nein
+                            No
                         </template>
                     </v-radio>
                 </v-radio-group>
@@ -60,7 +60,7 @@
 
 
             <div v-if="this.questOne === 'no' || this.questTwo === 'yes' || this.questTwoPointOne === 'yes'">
-                <h4 >Frage 202: Unter welcher Lizenz ist Ihr Programm aktuell Lizensiert?</h4>
+                <h4 >Question 202: Under which license is your program currently licensed?</h4>
                 <v-select
                         :items="licenseNamelist"
                         label="Choose a License"
