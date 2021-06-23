@@ -109,17 +109,14 @@
                         license["softwareRelatedOffer"] = ['section ' + this.licenseList[counterLicense].softwareRelatedOffer.slice(3).split('S').join(' sentence ').trim(), this.licenseList[counterLicense][this.licenseList[counterLicense].softwareRelatedOffer]]
                     }
                     for (var i = 0; i <= (this.answerList.length - 1); i++) {
-                        console.log('For1 : ' + i)
                         var checkListID = this.checkList.findIndex(x => x.id === this.answerList[i].id)
                         if (this.answerList[i].value === 'yes' && this.answerList[i].id === this.checkList[checkListID].id) {
-                            console.log('ifyes : ' + i)
                             if (this.checkList[checkListID].ifYes.includes(license.name)) { // check if the first answer is good for the license
                                 license.answers[i] = 1 // answer matches the licenses-conditions
                             } else {
                                 license.answers[i] = 0 // answer does not match the licenses-conditions
                             }
                         } else if (this.answerList[i].value === 'no' && this.answerList[i].id === this.checkList[checkListID].id) { // check if the second answer is good for the license
-                            console.log('ifno : ' + i)
                             if (this.checkList[checkListID].ifNo.includes(license.name)) {
                                 license.answers[i] = 1
                             } else {
@@ -127,7 +124,6 @@
                             }
                         }
                         if ((i + 1) === this.answerList.length) {
-                            console.log('ifende : ' + i)
                             this.resultList[counterLicense] = license
                         }
                     }

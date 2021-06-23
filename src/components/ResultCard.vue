@@ -114,9 +114,14 @@
                                             href="https://en.wikipedia.org/wiki/Multi-licensing" target="_blank">[Wikipedia
                                         (external url)]</a>
                                         <br>
-                                        Because you are the original author of the software, you have the
-                                        possibility to distribute your program under multiple licenses. Therefore,
-                                        you can distribute your product under this license as an open source
+                                        <template v-if="startingQuestionsAnswers.questionOne === 'yes'">
+                                            Because you are the original author of the software,
+                                        </template>
+                                        <template v-else>
+                                            Since the software is not yet licensed,
+                                        </template>
+                                        you have the possibility to distribute your program under multiple licenses.
+                                        Therefore, you can distribute your product under this license as an open source
                                         software, and distribute the same or a similar product under commercial
                                         software.
                                         <br>
