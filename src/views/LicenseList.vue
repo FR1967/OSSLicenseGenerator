@@ -1,3 +1,4 @@
+
 <template>
     <div id="main">
     <h1 class="mt-5">Licenselist</h1>
@@ -42,6 +43,7 @@
 </template>
 
 <script>
+    /* eslint-disable */
     export default {
         name: "License",
         data() {
@@ -73,10 +75,10 @@
                 this.showSoloLicense = true
                 if(this.showSoloLicense === true) {
                     document.getElementById("solo").style.visibility = "visible";
-                    this.innerhtmltest()
+                    this.setInnerHtml()
                 }
             },
-            innerhtmltest() {
+            setInnerHtml() {
                 for (var value in this.soloLicense) {
                     if (Object.prototype.hasOwnProperty.call(this.soloLicense, value)) {
                         this.license = this.license + "<p>" + this.soloLicense[value] + "</p>"
